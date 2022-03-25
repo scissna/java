@@ -4,7 +4,7 @@
 //otherwise.
 
 import java.util.Scanner;
-class Increase{
+class Numorder{
 	public static void main(String args[]){
 		Scanner in=new Scanner(System.in);
 		System.out.print("Enter the first number :");
@@ -28,5 +28,23 @@ class Increase{
 		}	
 }
 }
+
+/*Enter the first number :12
+Enter the second number :5
+Enter the third number :15
+Neither increasing or decreasing order
+
+Enter the first number :10
+Enter the second number :20
+Enter the third number :30
+increasing order
+
+
+Enter the first number :10
+Enter the second number :5
+Enter the third number :2
+decreasing order
+*/
+
 
 

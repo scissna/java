@@ -23,7 +23,7 @@ else
 
 switch(mname)
 	{
-	case "january":
+	case "January":
 		System.out.println("31 days in this month");
 		break;
 
@@ -35,8 +35,9 @@ switch(mname)
 		else
 		{
 		System.out.println("28 days in this month");
-		break;
+		
 		}
+		break;
 
 	case "March":
 		System.out.println("31 days in this month");
@@ -87,4 +88,20 @@ Enter the year:
 2020
 2020is leap year
 31 days in this month
+
+Enter the month :
+February
+Enter the year:
+2020
+2020is leap year
+29 days in this month
+
+Enter the month :
+February
+Enter the year:
+2025
+2025is not leap year
+28 days in this month
+
+
 */
